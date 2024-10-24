@@ -26,15 +26,15 @@ PREDEFINED_GAME_CODES = {
     'FINANCE2024': {
         'description': 'Spring Semester Challenge',
         'created_at': '2024-04-01'
+    },
+    'ARBITRAGEX': {
+        'description': 'Arbitrage Expert Mode',
+        'created_at': '2024-05-15'
+    },
+    'GROUPA': {
+        'description': 'Group A Competition',
+        'created_at': '2024-06-10'
     }
-    # 'ARBITRAGEX': {
-    #     'description': 'Arbitrage Expert Mode',
-    #     'created_at': '2024-05-15'
-    # },
-    # 'GROUPA': {
-    #     'description': 'Group A Competition',
-    #     'created_at': '2024-06-10'
-    # }
 }
 
 # ============================
@@ -532,7 +532,6 @@ if player_name and game_code:
             
             st.markdown("---")
             st.markdown("**Statistical Arbitrage Showdown 📊⚖️** - Developed with ❤️ by [Shashank](https://github.com/shashoriginal). Empowering the next generation of Quantitative Finance professionals.")
-
     
 else:
     st.info("🔍 **Join a Game** by entering your name and selecting a Game Code in the sidebar.")
