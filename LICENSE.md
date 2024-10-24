@@ -1,6 +1,5 @@
-# License
-
-## Comprehensive Public License - Version 1.0
+The MIT License (MIT)
+=====================
 
 Copyright (c) 2024 Shashank Raj
 
