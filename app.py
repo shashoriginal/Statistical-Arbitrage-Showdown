@@ -486,7 +486,7 @@ if player_name and game_code:
                 # Optional: Add a brief pause before rerunning
                 time.sleep(1)
                 
-                st.experimental_rerun()
+                st.rerun()  # Fixed from st.experimental_rerun
             
             # Plot Decision Impact
             st.markdown("### 📉 **Decision Impact on Capital:**")
@@ -542,4 +542,3 @@ else:
 
 st.markdown("---")
 st.markdown("**Statistical Arbitrage Showdown 📊⚖️** - Developed with ❤️ by [Shashank](https://github.com/shashoriginal). Empowering the next generation of Quantitative Finance professionals.")
-
